@@ -49,7 +49,7 @@ function closeImg() {
   document.getElementById("img-click").classList.add("d-none");
 }
 
-function loadNextImg(i, event) {
+function loadNextImg(i) {
   if (i == 17) {
     i = 0;
   } else {
